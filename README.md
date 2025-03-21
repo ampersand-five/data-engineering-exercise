@@ -1,44 +1,57 @@
 # Data Engineering Exercise
 
 ## Objective:
-Design a simplified version of a data pipeline using a real-world scenario. The exercise focuses on your ability to integrate data from an external API, process it, and present insights in a manner that's valuable for product and analytics teams.
+Design a simplified version of a data pipeline using a real-world scenario. The exercise
+focuses on your ability to integrate data from an external API, process it, and present
+insights in a manner that's valuable for product and analytics teams.
 
 ## Scenario:
- You are a part of a small online book company and your company wants to expand on the books provided by their online store. Your task if you choose to accept it, is to develop a mini data pipeline that extracts data from [Open Library's API](https://openlibrary.org/developers/api), focusing on a [subject](https://openlibrary.org/dev/docs/api/subjects) of your choice.
+You are a part of a small online book company and your company wants to expand on the
+books provided by their online store. Your task if you choose to accept it, is to
+develop a mini data pipeline that extracts data from
+[Open Library's API](https://openlibrary.org/developers/api), focusing on a
+[subject](https://openlibrary.org/dev/docs/api/subjects) of your choice.
 
-This pipeline will be generalized for production use at a later date as the company wishes to perform similar analysis in the future. The data to be extracted includes a list of authors and books related to your chosen subject.
+This pipeline will be generalized for production use at a later date as the company
+wishes to perform similar analysis in the future. The data to be extracted includes a
+list of authors and books related to your chosen subject.
 
 ## Key Deliverables
 1. **Architecture Overview**:
-   - Briefly outline the architecture and the technologies or services you would use. As we use AWS, mention any relevant AWS services.
-   - Include a simple data model diagram.
+  - Briefly outline the architecture and the technologies or services you would use. As
+    we use AWS, mention any relevant AWS services.
+  - Include a simple data model diagram.
 
 2. **Python Script**:
-   - Write a Python script to pull data from the API.
-   - Focus on extracting relevant details for authors and books.
-   - You may mock the insertion into a database due to time constraints.
+  - Write a Python script to pull data from the API.
+  - Focus on extracting relevant details for authors and books.
+  - You may mock the insertion into a database due to time constraints.
 
 3. **Sample Data Output**:
-   - Provide CSV outputs for 'Authors' and 'Books'.
-   - Include a simple 'Authors and Books' relation (no need for a full bridge table).
+  - Provide CSV outputs for 'Authors' and 'Books'.
+  - Include a simple 'Authors and Books' relation (no need for a full bridge table).
 
 4. **Data Processing**:
-   - Write a SQL query (or Python equivalent) to aggregate:
-     - The number of books written each year by an author.
-     - The average number of books written by an author per year.
-   - Discuss how you would optimize this for a larger dataset.
+  - Write a SQL query (or Python equivalent) to aggregate:
+    - The number of books written each year by an author.
+    - The average number of books written by an author per year.
+  - Discuss how you would optimize this for a larger dataset.
 
 5. **Presentation**:
-   - Prepare a short presentation explaining your approach, decisions made, and any assumptions.
-   - Discuss what you would do differently in a production environment and potential enhancements.
+  - Prepare a short presentation explaining your approach, decisions made, and any
+    assumptions.
+  - Discuss what you would do differently in a production environment and potential
+  enhancements.
 
 6. **ReadMe & Documentation**:
-   - Include a brief ReadMe file explaining your approach.
-   - Document any setup instructions or prerequisites.
+  - Include a brief ReadMe file explaining your approach.
+  - Document any setup instructions or prerequisites.
 
 ## Duration:
-- This exercise is designed to be completed within a few hours. Focus on working code and explaining that code to the interviewers
-- Focus on demonstrating your thought process, ability to work with data, and how you would communicate your findings to product and analytics teams.
+- This exercise is designed to be completed within a few hours. Focus on working code
+  and explaining that code to the interviewers
+- Focus on demonstrating your thought process, ability to work with data, and how you
+  would communicate your findings to product and analytics teams.
 
 **Evaluation Criteria**:
 - Clarity of thought and communication.
@@ -53,8 +66,10 @@ This pipeline will be generalized for production use at a later date as the comp
 - Briefly mention how you would incorporate infrastructure as code, like Terraform.
 
 **Note**:
-- It's okay to leave out certain aspects for time's sake. Prioritize the core components and be ready to discuss what you would add or change for a real-world scenario.
-- Your presentation and discussion will be a key part of the interview, allowing us to understand your approach and problem-solving skills.
+- It's okay to leave out certain aspects for time's sake. Prioritize the core components
+  and be ready to discuss what you would add or change for a real-world scenario.
+- Your presentation and discussion will be a key part of the interview, allowing us to
+  understand your approach and problem-solving skills.
 
 ## Additional Info:
 * we expect that this will take you a few hours to complete
@@ -64,4 +79,5 @@ This pipeline will be generalized for production use at a later date as the comp
 * Bonus points for security, specs, tests etc.
 * Do as little or as much as you like.
 
-Please fork this repo and commit your code into that fork. Show your work and process through those commits.
+Please fork this repo and commit your code into that fork. Show your work and process
+through those commits.
